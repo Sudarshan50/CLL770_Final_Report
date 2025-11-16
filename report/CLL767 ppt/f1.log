@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.16)  17 NOV 2025 03:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.16)  17 NOV 2025 03:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -895,10 +895,6 @@ Overfull \vbox (9.64403pt too high) detected at line 167
 [8
 
 ]
-Overfull \vbox (15.75041pt too high) detected at line 273
- []
-
-
 
 [9
 
@@ -907,7 +903,7 @@ Overfull \vbox (15.75041pt too high) detected at line 273
 [10
 
 ]
-Overfull \vbox (34.49883pt too high) detected at line 326
+Overfull \vbox (9.43462pt too high) detected at line 329
  []
 
 
@@ -935,7 +931,7 @@ Overfull \vbox (34.49883pt too high) detected at line 326
 [16
 
 ]
-Overfull \vbox (23.27834pt too high) detected at line 505
+Overfull \vbox (26.46832pt too high) detected at line 510
  []
 
 
@@ -951,7 +947,7 @@ Overfull \vbox (23.27834pt too high) detected at line 505
 [19
 
 ]
-Overfull \vbox (9.20197pt too high) detected at line 591
+Overfull \vbox (14.30197pt too high) detected at line 596
  []
 
 
@@ -967,7 +963,7 @@ Overfull \vbox (9.20197pt too high) detected at line 591
 [22
 
 ]
-Overfull \vbox (40.87766pt too high) detected at line 704
+Overfull \vbox (24.25252pt too high) detected at line 710
  []
 
 
@@ -979,10 +975,6 @@ Overfull \vbox (40.87766pt too high) detected at line 704
 [24
 
 ]
-Overfull \vbox (57.40198pt too high) detected at line 769
- []
-
-
 
 [25
 
@@ -1013,18 +1005,18 @@ Package rerunfilecheck Info: File `f1.out' has not changed.
 (rerunfilecheck)             Checksum: 82F2C9B4C2667C18349655D379C4BA18;1522.
  ) 
 Here is how much of TeX's memory you used:
- 31091 strings out of 474662
- 683755 string characters out of 5751108
+ 31095 strings out of 474662
+ 683797 string characters out of 5751108
  1037250 words of memory out of 5000000
- 53489 multiletter control sequences out of 15000+600000
- 575111 words of font info for 95 fonts, out of 8000000 for 9000
+ 53491 multiletter control sequences out of 15000+600000
+ 575788 words of font info for 97 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 101i,11n,107p,427b,1235s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </Users/sudarshan/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1095.600pk> </Users/sudarshan/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcsx1095.600pk></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on f1.pdf (27 pages, 231462 bytes).
+ 101i,11n,107p,427b,1257s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/sudarshan/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1095.600pk> </Users/sudarshan/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1000.600pk> </Users/sudarshan/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss0900.600pk> </Users/sudarshan/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcsx1000.600pk></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on f1.pdf (27 pages, 241307 bytes).
 PDF statistics:
- 323 PDF objects out of 1000 (max. 8388607)
- 239 compressed objects within 3 object streams
+ 338 PDF objects out of 1000 (max. 8388607)
+ 250 compressed objects within 3 object streams
  62 named destinations out of 1000 (max. 500000)
  153 words of extra memory for PDF output out of 10000 (max. 10000000)
 

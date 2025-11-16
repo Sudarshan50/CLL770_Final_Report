@@ -231,41 +231,41 @@
     \begin{columns}[T]
         \begin{column}{0.48\textwidth}
             \begin{block}{Electrochemical Stability}
-                \begin{itemize}
+                \begin{itemize}\small
                     \item \textbf{The Gold Standard: 0-5 V}
-                    \item Stable at low-potential graphite anode ($\sim$0.1 V)
+                    \item Stable at graphite anode ($\sim$0.1 V)
                     \item Stable at high-voltage cathodes ($>$4.3 V)
-                    \item One of few polymers with this wide window
+                    \item One of few polymers with wide window
                 \end{itemize}
             \end{block}
             
             \begin{block}{Dielectric Constant}
-                \begin{itemize}
+                \begin{itemize}\small
                     \item \textbf{Value:} $\epsilon$ = 8.4 to 12
                     \item High polarity ensures easy wetting
                     \item Aids Li-salt dissociation
-                    \item Higher ionic conductivity
+                \item Higher ionic conductivity
                 \end{itemize}
             \end{block}
         \end{column}
         
         \begin{column}{0.48\textwidth}
             \begin{alertblock}{The NMP Problem}
-                \textbf{Limited Solubility:} Only dissolves in strong polar aprotic solvents
-                \begin{itemize}
+                \textbf{Limited Solubility:} Only dissolves in polar aprotic solvents
+                \begin{itemize}\small
                     \item \textbf{NMP} (N-methyl-2-pyrrolidone)
                     \item DMF, DMAc, DMSO
                 \end{itemize}
                 
-                \vspace{0.2cm}
+                \vspace{0.1cm}
                 \textbf{Why NMP is standard:}
-                \begin{itemize}
+                \begin{itemize}\small
                     \item High flash point ($\sim$91\si{\celsius})
-                    \item Low vapor pressure (safer)
+                    \item Low vapor pressure
                     \item Up to 99\% recyclable
                 \end{itemize}
                 
-                \vspace{0.2cm}
+                \vspace{0.1cm}
                 \textcolor{AlertRed}{\textbf{BUT:}} Classified as \textbf{SVHC} \& reproductive hazard!
             \end{alertblock}
         \end{column}
@@ -274,19 +274,20 @@
 
 \begin{frame}{The NMP Challenge: A Sustainability Crisis}
     \begin{block}{Why NMP is a Major Liability}
-        \begin{itemize}
+        \begin{itemize}\small
             \item \textbf{Toxicity:} Known developmental \& reproductive toxin
-            \item \textbf{Environmental:} VOC with strict regulations (EU REACH)
-            \item \textbf{Cost:} Expensive + high-energy recovery systems in gigafactories
+            \item \textbf{Environmental:} VOC with strict EU REACH regulations
+            \item \textbf{Cost:} Expensive + high-energy recovery systems
         \end{itemize}
     \end{block}
     
     \begin{exampleblock}{Solution: Hansen Solubility Parameters (HSP)}
+        \small
         \textbf{Predictive framework for finding green solvents!}
         
-        HSP decomposes cohesive energy into 3 components: dispersion ($\delta_D$), polar ($\delta_P$), hydrogen bonding ($\delta_H$)
+        HSP decomposes cohesive energy into: dispersion ($\delta_D$), polar ($\delta_P$), H-bonding ($\delta_H$)
         
-        \vspace{0.2cm}
+        \vspace{0.1cm}
         \textbf{Key Metric: Relative Energy Difference (RED)}
         \begin{itemize}
             \item RED $<$ 1.0: High affinity, dissolution likely
@@ -297,30 +298,32 @@
 
 \begin{frame}{Green Solvent Alternatives: Computational Screening}
     \begin{block}{HSP-Based Screening of 224 Bio-Derived Solvents}
-        \textbf{Validated PVDF model predicts solubility before costly lab trials!}
+        \small \textbf{Validated PVDF model predicts solubility before costly trials!}
     \end{block}
     
+    \vspace{-0.2cm}
     \begin{table}
         \caption{RED Values for PVDF Solvents}
-        \centering
+        \centering\footnotesize
         \begin{tabular}{lcc}
             \toprule
-            \textbf{Solvent} & \textbf{RED Value} & \textbf{Assessment} \\
+            \textbf{Solvent} & \textbf{RED} & \textbf{Assessment} \\
             \midrule
-            \textbf{NMP (Reference)} & \textcolor{HighlightGreen}{\textbf{0.50}} & Excellent solvent \\
-            \textbf{Cyrene (Bio-derived)} & \textcolor{HighlightGreen}{\textbf{0.78}} & Good solvent \\
-            \textbf{$\gamma$-Valerolactone (GVL)} & \textcolor{HighlightGreen}{\textbf{0.80}} & Good solvent \\
-            \textbf{DMSO} & \textcolor{HighlightGreen}{\textbf{0.88}} & Good solvent \\
+            \textbf{NMP (Reference)} & \textcolor{HighlightGreen}{\textbf{0.50}} & Excellent \\
+            \textbf{Cyrene (Bio)} & \textcolor{HighlightGreen}{\textbf{0.78}} & Good \\
+            \textbf{$\gamma$-Valerolactone} & \textcolor{HighlightGreen}{\textbf{0.80}} & Good \\
+            \textbf{DMSO} & \textcolor{HighlightGreen}{\textbf{0.88}} & Good \\
             \bottomrule
         \end{tabular}
     \end{table}
     
+    \vspace{-0.2cm}
     \begin{alertblock}{Key Insight}
-        \textbf{Cyrene \& GVL are viable, non-toxic, sustainable NMP replacements}
-        \begin{itemize}
+        \small \textbf{Cyrene \& GVL are viable NMP replacements}
+        \begin{itemize}\footnotesize
             \item Thermodynamically capable of dissolving PVDF
-            \item Bio-derived sources
-            \item Can identify solutions before expensive lab testing
+            \item Bio-derived, non-toxic sources
+            \item Identify solutions before lab testing
         \end{itemize}
     \end{alertblock}
 \end{frame}
@@ -479,27 +482,29 @@
 
 \begin{frame}{The Sustainability Crisis: NMP Problem}
     \begin{alertblock}{Toxicity \& Regulation}
+        \small
         \begin{itemize}
-            \item NMP classified as \textbf{Substance of Very High Concern (SVHC)}
-            \item Known \textbf{reproductive toxicant} ("may damage unborn child")
-            \item Heavily restricted by EU REACH regulations
-            \item Drives up compliance costs dramatically
+            \item NMP classified as \textbf{SVHC}
+            \item Known \textbf{reproductive toxicant}
+            \item Heavily restricted by EU REACH
+            \item High compliance costs
         \end{itemize}
     \end{alertblock}
     
+    \vspace{-0.15cm}
     \begin{block}{The "Aqueous Processing Revolution"}
-        \textbf{Cost Comparison:}
-        \begin{itemize}
+        \small \textbf{Cost Comparison:}
+        \begin{itemize}\small
             \item Water: \textbf{$<$\$0.02/L}
-            \item NMP: \textbf{\$1.00-\$3.00/L} \quad \textcolor{AlertRed}{50-150$\times$ more expensive!}
+            \item NMP: \textbf{\$1.00-\$3.00/L} \quad \textcolor{AlertRed}{50-150$\times$ more!}
         \end{itemize}
         
-        \vspace{0.2cm}
+        \vspace{0.1cm}
         \textbf{Additional NMP Costs:}
-        \begin{itemize}
-            \item High-energy, high-CAPEX solvent recovery infrastructure
-            \item Energy-intensive drying (high boiling point)
-            \item VOC compliance and environmental regulations
+        \begin{itemize}\small
+            \item High-CAPEX solvent recovery
+            \item Energy-intensive drying
+            \item VOC compliance \& regulations
         \end{itemize}
     \end{block}
 \end{frame}
@@ -508,34 +513,34 @@
     \begin{columns}[T]
         \begin{column}{0.48\textwidth}
             \begin{alertblock}{Pyrometallurgy (Burning)}
-                \textbf{Process:} High-temp incineration (600-1600\si{\celsius})
+                \small \textbf{Process:} High-temp incineration (600-1600\si{\celsius})
                 
-                \vspace{0.2cm}
+                \vspace{0.1cm}
                 \textbf{The Problem:}
                 \begin{itemize}\small
-                    \item PVDF decomposes $\rightarrow$ releases \textbf{HF gas}
-                    \item Hydrogen fluoride: highly corrosive \& toxic
+                    \item PVDF decomposes $\rightarrow$ \textbf{HF gas}
+                    \item Hydrogen fluoride: corrosive \& toxic
                     \item Requires costly acid scrubbers
-                    \item Can deactivate recovered cathode materials
+                    \item Deactivates cathode materials
                 \end{itemize}
             \end{alertblock}
         \end{column}
         
         \begin{column}{0.48\textwidth}
             \begin{block}{Hydrometallurgy (Leaching)}
-                \textbf{Process:} Acids dissolve \& separate metals
+                \small \textbf{Process:} Acids dissolve \& separate metals
                 
-                \vspace{0.2cm}
+                \vspace{0.1cm}
                 \textbf{The Problem:}
                 \begin{itemize}\small
-                    \item PVDF's exceptional chemical resistance = \textbf{doesn't dissolve}
+                    \item PVDF's resistance = \textbf{doesn't dissolve}
                     \item Remains as solid contaminant
-                    \item Complicates metal salt purification
+                    \item Complicates metal purification
                 \end{itemize}
             \end{block}
             
             \begin{exampleblock}{Future Solution}
-                \textbf{Green Solvent Direct Recycling:} DMSO, DMI, or ethylene glycol to dissolve binder \& recover intact cathodes
+                \small \textbf{Green Solvent Recycling:} DMSO, DMI, or ethylene glycol to dissolve binder \& recover cathodes
             \end{exampleblock}
         \end{column}
     \end{columns}
@@ -568,24 +573,24 @@
 
 \begin{frame}{The Silicon Anode Solution}
     \begin{alertblock}{PVDF Fails for Silicon}
-        Too stiff \& brittle to accommodate $>$300\% volume expansion
+        \small Too stiff \& brittle to accommodate $>$300\% volume expansion
     \end{alertblock}
     
     \begin{exampleblock}{PAA: The Enabling Binder}
-        \textbf{Polyacrylic Acid (PAA) is the binder of choice for Si-anodes:}
-        \begin{itemize}
-            \item Unique combination: \textbf{high stiffness} ($\sim$8000 MPa) + \textbf{elasticity}
-            \item Can withstand \& accommodate extreme mechanical stresses
-            \item Higher concentration of carboxylic acid groups $\rightarrow$ stronger Si bonds
-            \item Lower electrode swelling (7.49\%) vs. SBR (9.56\%)
+        \small \textbf{Polyacrylic Acid (PAA) is the binder of choice for Si-anodes:}
+        \begin{itemize}\small
+            \item Unique: \textbf{high stiffness} ($\sim$8000 MPa) + \textbf{elasticity}
+            \item Can withstand \& accommodate extreme stresses
+            \item Higher carboxylic acid groups $\rightarrow$ stronger Si bonds
+            \item Lower swelling (7.49\%) vs. SBR (9.56\%)
         \end{itemize}
     \end{exampleblock}
     
     \begin{block}{The Aqueous Processing Challenge}
-        \textbf{pH Control is Critical:}
-        \begin{itemize}
-            \item Alkaline slurries (pH $\sim$12) corrode aluminum current collector
-            \item Solution: Add acid to titrate pH to 9-10 (safe range)
+        \small \textbf{pH Control is Critical:}
+        \begin{itemize}\small
+            \item Alkaline slurries (pH $\sim$12) corrode Al collector
+            \item Solution: Add acid to titrate pH to 9-10
         \end{itemize}
     \end{block}
 \end{frame}
@@ -650,24 +655,24 @@
     \begin{columns}[T]
         \begin{column}{0.48\textwidth}
             \begin{block}{Market Size \& Growth}
-                \textbf{Driven by EV \& grid storage:}
-                \begin{itemize}
+                \small \textbf{Driven by EV \& grid storage:}
+                \begin{itemize}\footnotesize
                     \item \textbf{2024:} US\$ 5.99 Billion
                     \item \textbf{2033:} US\$ 28.75 Billion
                     \item \textbf{CAGR:} 20.3\%
                 \end{itemize}
                 
-                \vspace{0.2cm}
+                \vspace{0.05cm}
                 \textbf{Market Segmentation:}
-                \begin{itemize}
-                    \item Binder application: \textbf{34.13\%} of revenue
-                    \item Homopolymer: \textbf{68\%} market share
-                    \item APAC region: \textbf{56.67\%} (China dominance)
+                \begin{itemize}\footnotesize
+                    \item Binder: \textbf{34.13\%} of revenue
+                    \item Homopolymer: \textbf{68\%} share
+                    \item APAC: \textbf{56.67\%} (China)
                 \end{itemize}
                 
-                \vspace{0.2cm}
+                \vspace{0.05cm}
                 \textbf{Key Players:}
-                \begin{itemize}
+                \begin{itemize}\footnotesize
                     \item Arkema (Kynar®)
                     \item Solvay/Syensqo (Solef®)
                     \item Kureha, 3M
@@ -677,26 +682,27 @@
         
         \begin{column}{0.48\textwidth}
             \begin{alertblock}{The Real Cost Problem}
-                \textbf{Polymer price:} \$7-26/kg (industrial)
+                \small \textbf{Polymer price:} \$7-26/kg
                 
-                \vspace{0.2cm}
+                \vspace{0.05cm}
                 \textbf{Total Cost of Ownership:}
-                \begin{enumerate}
+                \begin{enumerate}\footnotesize
                     \item NMP: 50-150$\times$ more than water
-                    \item CAPEX: Massive solvent recovery system
-                    \item OPEX: High-energy drying process
-                    \item Compliance: Environmental \& health laws
+                    \item CAPEX: Solvent recovery
+                    \item OPEX: High-energy drying
+                    \item Compliance: Environmental
                 \end{enumerate}
             \end{alertblock}
             
+            \vspace{0.05cm}
             \begin{center}
-                \begin{tikzpicture}[scale=0.7]
+                \begin{tikzpicture}[scale=0.55]
                     % Cost breakdown visualization
-                    \draw[fill=DarkNavy!70] (0,0) rectangle (0.8,2.5) node[midway, white, font=\tiny, rotate=90] {Solvent 25\%};
-                    \draw[fill=AccentBlue!70] (1,0) rectangle (1.8,3) node[midway, white, font=\tiny, rotate=90] {CAPEX 30\%};
-                    \draw[fill=AlertRed!70] (2,0) rectangle (2.8,2.5) node[midway, white, font=\tiny, rotate=90] {OPEX 25\%};
-                    \draw[fill=HighlightGreen!70] (3,0) rectangle (3.8,2) node[midway, white, font=\tiny, rotate=90] {Compliance 20\%};
-                    \node[font=\tiny] at (1.9,-0.5) {Total Cost Breakdown};
+                    \draw[fill=DarkNavy!70] (0,0) rectangle (0.8,2.3) node[midway, white, font=\tiny, rotate=90] {Solvent 25\%};
+                    \draw[fill=AccentBlue!70] (1,0) rectangle (1.8,2.7) node[midway, white, font=\tiny, rotate=90] {CAPEX 30\%};
+                    \draw[fill=AlertRed!70] (2,0) rectangle (2.8,2.3) node[midway, white, font=\tiny, rotate=90] {OPEX 25\%};
+                    \draw[fill=HighlightGreen!70] (3,0) rectangle (3.8,1.8) node[midway, white, font=\tiny, rotate=90] {Compliance 20\%};
+                    \node[font=\tiny] at (1.9,-0.5) {Cost Breakdown};
                 \end{tikzpicture}
             \end{center}
         \end{column}
@@ -740,32 +746,45 @@
 \end{frame}
 
 \begin{frame}{Future Research Outlook: Three Paths Forward}
-    \begin{block}{Path 1: "Greening" PVDF}
-        \textbf{Preserve performance, eliminate NMP}
-        \begin{itemize}
-            \item Validate \& scale green solvents (DMSO, DMI)
-            \item Develop direct recycling processes
-            \item Create closed-loop system
-        \end{itemize}
-    \end{block}
-    
-    \begin{block}{Path 2: "Replacing" PVDF}
-        \textbf{Accept limitations, develop functional replacements}
-        \begin{itemize}
-            \item Design superior aqueous binders (PAA, Alginate)
-            \item Stronger adhesion via H-bonding
-            \item Enable silicon anodes with mechanical flexibility
-        \end{itemize}
-    \end{block}
-    
-    \begin{block}{Path 3: "Evolving" PVDF}
-        \textbf{Leverage unique properties for new applications}
-        \begin{itemize}
-            \item Gel-Polymer Electrolytes (GPEs)
-            \item Composite Solid-State Electrolytes (SSEs)
-            \item High polarity \& controlled swelling become advantages
-        \end{itemize}
-    \end{block}
+    \begin{columns}[T]
+        \begin{column}{0.48\textwidth}
+            \begin{block}{Path 1: "Greening" PVDF}
+                \footnotesize \textbf{Preserve performance, eliminate NMP}
+                \begin{itemize}\footnotesize
+                    \item Validate \& scale green solvents
+                    \item Direct recycling processes
+                    \item Closed-loop system
+                \end{itemize}
+            \end{block}
+            
+            \vspace{0.1cm}
+            \begin{block}{Path 2: "Replacing" PVDF}
+                \footnotesize \textbf{Develop functional replacements}
+                \begin{itemize}\footnotesize
+                    \item Aqueous binders (PAA, Alginate)
+                    \item H-bonding for adhesion
+                    \item Enable Si anode flexibility
+                \end{itemize}
+            \end{block}
+        \end{column}
+        
+        \begin{column}{0.48\textwidth}
+            \begin{block}{Path 3: "Evolving" PVDF}
+                \footnotesize \textbf{Leverage unique properties}
+                \begin{itemize}\footnotesize
+                    \item Gel-Polymer Electrolytes (GPEs)
+                    \item Composite Solid-State Electrolytes
+                    \item High polarity advantage
+                \end{itemize}
+            \end{block}
+            
+            \vspace{0.1cm}
+            \begin{exampleblock}{Strategic Direction}
+                \footnotesize \textbf{Industry must pursue parallel strategies:}\\
+                Green processing for current tech, alternatives for next-gen batteries
+            \end{exampleblock}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 \begin{frame}{Key Takeaways}
