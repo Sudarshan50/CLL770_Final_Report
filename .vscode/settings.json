@@ -3,6 +3,13 @@
   "latex-workshop.latex.autoBuild.run": "onSave",
   "latex-workshop.latex.recipes": [
     {
+      "name": "pdflatex × 2 (for Beamer/TOC)",
+      "tools": [
+        "pdflatex",
+        "pdflatex"
+      ]
+    },
+    {
       "name": "pdflatex ➞ bibtex ➞ pdflatex × 2",
       "tools": [
         "pdflatex",
