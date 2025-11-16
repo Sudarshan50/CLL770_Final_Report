@@ -1,0 +1,256 @@
+\documentclass[12pt,a4paper]{article}
+
+% =============================
+% PACKAGES
+% =============================
+\usepackage[a4paper,margin=0.9in]{geometry}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{titlesec}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{natbib}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{tabularx}
+
+% =============================
+% STYLE SETTINGS
+% =============================
+\definecolor{accent}{RGB}{25,80,140}
+\setstretch{1.05}
+\setlength{\parskip}{4pt}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=1.3em,topsep=2pt,itemsep=1pt,parsep=0pt}
+
+\titleformat{\section}
+  {\large\bfseries\color{accent}}{\thesection.}{0.5em}{}
+\titleformat{\subsection}
+  {\normalsize\bfseries\color{accent}}{\thesubsection}{0.5em}{}
+
+\renewcommand{\arraystretch}{1.15}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\color{accent}\small CLL767: STRUCTURES \& PROP. OF POLYMERS }
+\rhead{\color{accent}\small Page \thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\headheight}{14pt}
+
+% =============================
+% DOCUMENT START
+% =============================
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries\color{accent} Polyvinylidene Fluoride (PVDF) in Energy Storage}\\[6pt]
+  {\large From Incumbent Binder to Next-Generation Functional Material}\\[8pt]
+  \rule{0.75\textwidth}{0.5pt}\\[10pt]
+  \textbf{Prepared by:} Shakhare Yash, Sudarshan Oraon\\[4pt]
+  \textbf{Date:} 16 November 2025
+\end{center}
+
+\vspace{1em}
+
+% =============================
+% ABSTRACT
+% =============================
+\section*{Abstract}
+\addcontentsline{toc}{section}{Abstract}
+\noindent This report summarises current knowledge and recent advances on Polyvinylidene Fluoride (PVDF) in energy storage applications. It covers PVDF's polymer science (synthesis, molecular weight, polymorphism), its role as an incumbent binder in lithium-ion batteries, processing challenges (NMP solvent issues and slurry gelation), the aqueous processing frontier, operando diagnostics of binder failure, and new functional roles for PVDF in solid-state and Li--S batteries.
+
+\vspace{1em}
+
+\section{Part 1: The Established Baseline: PVDF as the Incumbent Li--Ion Binder}
+
+Polyvinylidene Fluoride (PVDF) has long been the dominant polymer binder in the lithium-ion battery (LIB) industry, particularly for cathodes. Its status as the industry incumbent is not accidental, but rather a direct result of its unique combination of electrochemical stability, chemical inertness, and adequate mechanical properties. However, a deeper analysis of its fundamental polymer science reveals that the very properties that secured its dominance are now becoming its primary limitations in the face of next-generation battery demands.\citep{ref1}
+
+\subsection{Synthesis, Structure, and Polymorphism: A Quantitative Baseline}
+
+PVDF is a high-performance, semi-crystalline, thermoplastic fluoropolymer synthesized via the free-radical polymerization of the vinylidene fluoride (VDF) monomer, with a repeating unit of $(-CH_{2}-CF_{2}-)_{n}$. This process, typically carried out through emulsion or suspension methods, produces a classic homopolymer structure. A critical, yet often overlooked, engineering parameter for battery applications is the polymer's molecular weight ($M_{w}$). While standard PVDF grades may have an $M_{w}$ in the range of 240,000 g/mol, the grades specifically engineered for battery applications possess a significantly higher $M_{w}$, often cited between 600,000 g/mol and 1,200,000 g/mol. This high $M_{w}$ is essential, as it provides the long-range chain entanglements necessary for the binder's cohesive strength, allowing it to hold the electrode's composite structure together.\citep{ref1}
+
+The most unique characteristic of PVDF is its crystalline polymorphism, a concept where the same polymer chain can pack into different crystalline structures based on its conformation (dictated by the sequence of trans (T) and gauche (G) bonds). The two most relevant phases are:
+
+\begin{itemize}
+  \item \textbf{$\alpha$-Phase (TGTG' conformation):} This is the most common and thermodynamically stable phase, forming during standard crystallization from the melt (e.g., during electrode drying). In this conformation, the dipoles of the C--F bonds on adjacent monomer units cancel each other out, resulting in a non-polar and non-piezoelectric crystal structure. This is the dominant, ``workhorse'' phase found in standard battery binders.\citep{ref1}
+
+  \item \textbf{$\beta$-Phase (TTTT `all-trans' conformation):} This phase is typically formed by mechanically stretching the $\alpha$-phase. In this all-trans conformation, all C--F dipoles align on one side of the polymer chain, creating a highly polar, electroactive crystal structure. This polarity is responsible for PVDF's strong piezoelectric, pyroelectric, and ferroelectric properties, making it an advanced functional material for sensors.\citep{ref1}
+\end{itemize}
+
+While the $\alpha$-phase is the standard for binders, this $\alpha$--$\beta$ polymorphism establishes a critical duality: the same polymer can be either a passive structural component or an active electroactive material, a property that becomes highly relevant in next-generation battery systems.
+
+A deeper, quantitative analysis reveals that the "master property" of crystallinity, which can be controlled during manufacturing, has a direct and critical impact on performance. An analysis of two different commercial PVDF binders (one with low crystallinity, one with high) reveals a critical causal chain.\citep{ref1}
+
+\begin{table}[ht]
+  \centering
+  \caption{Influence of PVDF Binder Crystallinity on Electrode Properties (adapted)}
+  \label{tab:crystallinity}
+  \begin{tabular}{lrr}
+    \toprule
+    Property                      & PVDF 1 (Low Crystallinity) & PVDF 2 (High Crystallinity) \\
+    \midrule
+    \% Crystallinity              & 14\%                       & 32\%                        \\
+    Adhesion Strength             & 1.30 N\,cm$^{-1}$          & 11.42 N\,cm$^{-1}$          \\
+    Electrolyte Uptake (Swelling) & 18.88\%                    & 11.3\%                      \\
+    Initial LFP Capacity          & 136 mAh/g                  & 146 mAh/g                   \\
+    Capacity Retention            & 64\% (500 cycles)          & 82\% (500 cycles)           \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+This data allows for a deep analysis of the trade-offs in binder design:\citep{ref1}
+
+\begin{enumerate}
+  \item \textbf{Crystallinity $\rightarrow$ Adhesion:} The high-crystallinity binder exhibits an adhesion strength nearly nine times higher than the low-crystallinity binder due to stronger intermolecular interactions between PVDF chains.
+
+  \item \textbf{Crystallinity $\rightarrow$ Swelling:} The low-crystallinity binder has a larger amorphous volume fraction, leading to higher electrolyte uptake.
+
+  \item \textbf{Adhesion + Swelling $\rightarrow$ Performance:} The high-crystallinity PVDF, with superior adhesion and lower swelling, results in higher initial capacity and better long-term cyclability.
+\end{enumerate}
+
+Therefore, an optimized crystallinity is required—high enough for adhesion and mechanical integrity, yet low enough to permit controlled swelling for ionic conductivity.\citep{ref1}
+
+\subsection{The NMP-Based Slurry System: Rheology and Solubility}
+
+The fabrication of battery electrodes requires dissolving the PVDF binder in a solvent to create a viscous slurry with the active materials (e.g., NMC, LFP) and conductive carbon additives. For decades, the solvent of choice has been N-methyl-2-pyrrolidone (NMP). The "NMP Problem" is a well-established environmental and economic crisis: NMP is a reproductive toxin and its high boiling point makes it energy-intensive and costly to recover.\citep{ref1}
+
+Hansen Solubility Parameters (HSP) explain why NMP dissolves PVDF so effectively. A polymer will dissolve in a solvent if their dispersion ($\delta_{D}$), polarity ($\delta_{P}$), and hydrogen bonding ($\delta_{H}$) parameters are closely matched. The Relative Energy Difference (RED) quantifies this, where RED ${<}1.0$ predicts dissolution. Representative RED values: NMP (0.50), Cyrene (0.78), GVL (0.80), DMSO (0.88). This analysis provides a pathway to greener solvent choices.\citep{ref1}
+
+Beyond solubility, slurry rheology is critical: the slurry must be shear-thinning for coating yet viscous at rest to prevent particle settling. This gel-like structure at rest arises not from PVDF adsorbing particles but from particle--particle interactions of conductive carbon black, kinetically stabilized by dissolved high-$M_{w}$ PVDF.\citep{ref1}
+
+\subsection{The Adhesion Mechanism: A Fundamental Weakness}
+
+PVDF's adhesion mechanism is primarily physical (van der Waals + mechanical interlocking) rather than chemical, yielding relatively low and variable peel strengths (ASTM D903). Quantitative data show low peel strengths on modern electrodes (e.g., 11 $\pm$ 1 N/m on NCM811; 8.7 N/m on silicon anodes). This weak physical bond is the root cause of PVDF's failures with high-volume-change electrodes like silicon.\citep{ref1}
+
+\subsection{The High-Nickel Cathode Problem: Slurry Gelation}
+
+An additional processing failure in PVDF/NMP systems is slurry gelation, caused by unintentional cross-linking catalysed by basic species on high-Ni cathode surfaces. The proposed mechanism: residual basic species catalyse an E2 elimination on PVDF, generating HF and $C=C$ double bonds that cross-link polymer chains into a gel network, leading to catastrophic viscosity increases in slurries. This is especially problematic for NMC622/NMC811.\citep{ref1}
+
+\section{Part 2: The Aqueous Processing Frontier: Nuance Beyond NMP}
+
+The push to aqueous processing removes NMP hazards and cost but introduces complex material/interfacial challenges. There are three industrially relevant pathways: replace the binder (e.g., CMC/SBR), replace the solvent while keeping PVDF (PVDF-latex), or develop hybrid mitigation strategies for high-Ni cathodes.\citep{ref1}
+
+\subsection{A New Dichotomy: Replacing the Binder vs. Replacing the Solvent}
+
+The initial narrative framed a binary choice: PVDF/NMP vs aqueous binders. A third route—aqueous PVDF latex—processes PVDF as a water-based emulsion, retaining PVDF's electrochemical stability while avoiding NMP.\citep{ref5}
+
+\subsection{Commercial Precedent: PVDF Latex}
+
+PVDF-latex (e.g., Kynar HSV 900) is commercially available and used for LFP batteries, demonstrating that aqueous PVDF is a practical, commercial pathway.\citep{ref9}
+
+\subsection{Performance and Limitations of Aqueous PVDF-Latex}
+
+Aqueous PVDF-latex can match NMP-PVDF performance for certain cathodes (LCO) only if the active material is coated (e.g., with protective oxide layers). On uncoated LCO, aqueous processing leads to lower capacity retention, shifting complexity from solvent to active-material surface engineering.\citep{ref5}
+
+\subsection{The Unaddressed Challenge: Aqueous Processing of High-Nickel Cathodes}
+
+High-Ni NMC cathodes undergo lithium leaching upon contact with water, raising slurry pH (to 10--12), forming hydroxides/carbonates and corroding Al current collectors. The result is structural degradation and irreversible capacity loss. This challenge affects all water-based binders and requires strategies such as pH buffers, corrosion inhibitors, active material coatings, or controlled-acid slurries to mitigate.\citep{ref13}
+
+\begin{table}[ht]
+  \centering
+  \caption{Comparative Analysis of Cathode Processing Routes}
+  \label{tab:processing}
+  \begin{tabular}{>{\bfseries}m{3.3cm} m{4cm} m{5cm}}
+    \toprule
+    Processing Route       & Binder       & Key Challenge(s)                                                                                  \\
+    \midrule
+    NMP-Based Conventional & PVDF (NMP)   & NMP toxicity; high recovery cost; slurry gelation with high-Ni NMC                                \\
+    Aqueous-PVDF Latex     & PVDF-Latex   & Requires active-material coating for some cathodes; unsuitable for high-Ni NMC without mitigation \\
+    Aqueous-Functional     & CMC/SBR; PAA & Electrochemical instability at high voltages; unsuitable for high-Ni NMC without mitigation       \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\section{Part 3: Advanced Operando Diagnostics: Visualizing Binder Failure Mechanisms}
+
+Operando diagnostics (XCT, in-situ SEM, operando NMR) reveal the multi-scale failure cascade of PVDF binders, especially with Si anodes. These techniques show macro-scale "mud-type channel cracks" (operando XCT), micro-scale loss of connectivity (SEM), and chemically trapped lithium silicides (operando NMR) — all consequences of PVDF's weak physical adhesion that cannot reform after particle contraction.\citep{ref14,ref16,ref19}
+
+\subsection{Macro-Scale Failure: Operando X-ray Computed Tomography (XCT)}
+
+Operando XCT visualises internal morphological evolution during cycling and identifies that mud-crack propagation occurs during delithiation when Si particles contract, preventing re-bonding and creating voids that accumulate into large cracks.\citep{ref14}
+
+\begin{figure}[ht]
+  \centering
+  \fbox{\parbox[c][6cm][c]{0.9\linewidth}{\centering \textit{Figure Placeholder:} Operando XCT image\\(replace with actual image \texttt{figures/figure\_xct.png})}}
+  \caption{Placeholder for operando XCT showing mud-type channel cracks in PVDF-bound Si electrodes.}
+  \label{fig:xct}
+\end{figure}
+
+\subsection{Micro-Scale Failure: In-Situ SEM and Chemical Decomposition}
+
+SEM shows micrometer-sized cracks and loss of connectivity for PVDF-bound Si anodes, whereas PAA-based binders maintain structural integrity. Chemical analyses indicate PVDF decomposition during cycling, exacerbating mechanical failure.\citep{ref16,ref18}
+
+\subsection{Chemical-Scale Failure: Operando NMR Spectroscopy}
+
+Operando NMR identifies "trapped lithium silicides" as a major source of irreversible capacity loss; additives that alter SEI chemistry can reduce this trapped lithium, indicating the interface chemistry/binder interaction is critical.\citep{ref19}
+
+\begin{figure}[ht]
+  \centering
+  \fbox{\parbox[c][5cm][c]{0.9\linewidth}{\centering \textit{Figure Placeholder:} Schematic of binder adhesion mechanisms\\(replace with actual image \texttt{figures/figure\_schematic.png})}}
+  \caption{Schematic comparing physical adhesion (PVDF) and chemical/dynamic adhesion (PAA/alginate) on silicon particles.}
+  \label{fig:schematic}
+\end{figure}
+
+This multi-scale evidence explains why water-soluble functional binders (PAA, sodium alginate) that form chemical bonds with SiOx perform far better: they form dynamic hydrogen bonds that can reform upon contraction, enabling a "self-healing" adhesion mechanism and greatly improved peel strength (e.g., alginate $\sim78.3$ N/m vs PVDF $\sim8.7$ N/m).\citep{ref1}
+
+\section{Part 4: New Frontiers: PVDF in Next-Generation Energy Storage Systems}
+
+PVDF's future may not be as a passive 2--5 wt\% binder but as a functional material in Solid-State Batteries (SSBs) and Lithium--Sulfur (Li--S) batteries, taking advantage of PVDF's electrochemical stability and polar properties when deliberately engineered (e.g., PVDF-HFP, polar $\beta$-phase membranes).\citep{ref20,ref23,ref30}
+
+\subsection{PVDF in Solid-State Batteries (SSBs): Composite Polymer Electrolytes}
+
+PVDF-HFP (PVDF co-hexafluoropropylene) is used as a flexible host in composite polymer electrolytes (CPEs) blended with ceramic conductors (LATP, LLZO). Example metrics for a PVDF-HFP/LATP (CPE-10) composite: ionic conductivity $3.1\times10^{-5}$ S/cm at 30\,$^{\circ}$C, electrochemical window 4.94~V, $t_{\text{Li}^+}=0.60$, and 152~mAh/g after 50 cycles with NCM622.\citep{ref23}
+
+\subsection{PVDF in Lithium--Sulfur (Li--S) Batteries: Exploiting Polarity}
+
+The polysulfide shuttle in Li--S systems can be mitigated by polar PVDF materials that trap LiPS via dipole interactions. The effective PVDF designs are polar $\beta$-phase, often fabricated via electrospinning (mechanical stretching induces all-trans conformation). The distinction between failing and successful PVDF implementations in Li--S hinges on crystalline phase and processing.\citep{ref27,ref30}
+\begin{table}[ht]
+  \centering
+  \small
+  \caption{Electrochemical Properties of PVDF-based Composite Solid Electrolytes}
+  \label{tab:cpe}
+  \begin{tabular}{>{\raggedright\arraybackslash}p{3.2cm}>{\raggedright\arraybackslash}p{3.5cm}>{\centering\arraybackslash}p{2cm}>{\raggedright\arraybackslash}p{4.5cm}}
+    \toprule
+    \textbf{CPE Composition} & \textbf{Ionic Conductivity} & \textbf{Electro-chemical Window} & \textbf{Performance Notes} \\
+    \midrule
+    PVDF-HFP / LATP (10~wt\%) & $3.1\times10^{-5}$ S/cm at 30$^{\circ}$C & 4.94~V & 152 mAh/g at 0.2C after 50 cycles with NCM622\citep{ref23} \\[8pt]
+    PVDF-HFP / MIL / 40~wt\% & $7.0\times10^{-6}$ S/cm at RT & --- & 80 mAh/g at C/10 rate\citep{ref21} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\section*{Conclusions and Outlook}
+\addcontentsline{toc}{section}{Conclusions and Outlook}
+\noindent PVDF remains a backbone fluoropolymer in energy storage but its role is evolving. As a binder in high-capacity anodes (e.g., Si) and with high-Ni cathodes, PVDF's weak physical adhesion and processing instability (NMP, slurry gelation) pose fundamental limits. Aqueous processing offers environmental benefits but requires interface engineering for high-Ni materials. Advanced operando diagnostics demonstrate the failure cascade that drives researchers to functional binders (PAA, alginate) or to repurpose PVDF into functional components (CPEs, polar membranes) for SSBs and Li--S batteries. Future work should focus on scalable mitigation for aqueous processing of high-Ni cathodes, robust binder chemistries for Si anodes, and engineering PVDF polymorphism to exploit its polar properties.
+
+\section*{List of Figures and Tables}
+\addcontentsline{toc}{section}{List of Figures and Tables}
+\noindent\textit{Note: Figure placeholders indicate where actual images should be inserted.}
+\vspace{0.5em}
+
+\begin{itemize}
+  \item Figure~\ref{fig:xct}: Operando XCT image (placeholder \texttt{figures/figure\_xct.png}).
+  \item Figure~\ref{fig:schematic}: Schematic of adhesion mechanisms (placeholder \texttt{figures/figure\_schematic.png}).
+  \item Table~\ref{tab:crystallinity}: Influence of PVDF binder crystallinity on electrode properties.
+  \item Table~\ref{tab:processing}: Comparative analysis of cathode processing routes.
+  \item Table~\ref{tab:cpe}: Electrochemical properties of PVDF-based composite solid electrolytes.
+  \item Additional SEM, NMR, and electrochemical graphs: place files under \texttt{figures/} and cite them in text as required.
+\end{itemize}
+
+\section*{Acknowledgements}
+\addcontentsline{toc}{section}{Acknowledgements}
+\noindent This summary was prepared from a compiled literature review of PVDF in energy storage. Figures are placeholders; please replace with original datasets or reproductions with permissions.
+
+\bibliographystyle{unsrt}
+\bibliography{references}
+
+\end{document}
