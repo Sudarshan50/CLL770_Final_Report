@@ -1,0 +1,10 @@
+\frametitle{Advanced Usage: Programmatic API}
+\begin{lstlisting}
+import requests
+res = requests.post('http://localhost:5001/api/optimize')
+print(res.json())
+
+sim = {"arrival_rate":10.0,"service_rate":4.0,"num_staff":3,"duration":8.0}
+res = requests.post('http://localhost:5001/api/simulate', json=sim)
+print(res.json())
+  \end{lstlisting}
