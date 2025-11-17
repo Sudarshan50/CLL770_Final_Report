@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.16)  17 NOV 2025 22:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.16)  17 NOV 2025 23:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -642,28 +642,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 295--295
 []|\T1/lmr/bx/n/12 (+20) Aqueous-
  []
 
+<images/4.png, id=305, 479.7925pt x 286.06876pt>
+File: images/4.png Graphic file (type png)
+<use images/4.png>
+Package pdftex.def Info: images/4.png  used on input line 310.
+(pdftex.def)             Requested size: 397.3122pt x 236.89574pt.
 
 
 [9]
+<images/5.png, id=317, 284.39583pt x 228.52042pt>
+File: images/5.png Graphic file (type png)
+<use images/5.png>
+Package pdftex.def Info: images/5.png  used on input line 322.
+(pdftex.def)             Requested size: 397.3122pt x 319.27434pt.
 
-[10]
-<images/7.png, id=334, 853.1875pt x 513.92pt>
+
+[10 <./images/4.png>]
+<images/7.png, id=336, 853.1875pt x 513.92pt>
 File: images/7.png Graphic file (type png)
 <use images/7.png>
-Package pdftex.def Info: images/7.png  used on input line 360.
+Package pdftex.def Info: images/7.png  used on input line 361.
 (pdftex.def)             Requested size: 397.3122pt x 239.3232pt.
 
 
-[11]
+[11 <./images/5.png>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 375.
+(Font)              <10.95> on input line 376.
 
 
 [12 <./images/7.png>]
-<images/8.png, id=365, 344.12566pt x 158.2713pt>
+<images/8.png, id=364, 344.12566pt x 158.2713pt>
 File: images/8.png Graphic file (type png)
 <use images/8.png>
-Package pdftex.def Info: images/8.png  used on input line 400.
+Package pdftex.def Info: images/8.png  used on input line 401.
 (pdftex.def)             Requested size: 397.3122pt x 182.74715pt.
 
 
@@ -684,18 +695,18 @@ Package rerunfilecheck Info: File `pvdf_report.out' has not changed.
 (rerunfilecheck)             Checksum: 43FFD978AE34FCF5983CF6E135285F8B;10123.
  ) 
 Here is how much of TeX's memory you used:
- 15954 strings out of 474662
- 256476 string characters out of 5751108
- 710010 words of memory out of 5000000
- 38517 multiletter control sequences out of 15000+600000
+ 15968 strings out of 474662
+ 256740 string characters out of 5751108
+ 709998 words of memory out of 5000000
+ 38531 multiletter control sequences out of 15000+600000
  631477 words of font info for 168 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  75i,13n,79p,1045b,606s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on pvdf_report.pdf (18 pages, 2684635 bytes).
+Output written on pvdf_report.pdf (18 pages, 3934345 bytes).
 PDF statistics:
- 492 PDF objects out of 1000 (max. 8388607)
+ 496 PDF objects out of 1000 (max. 8388607)
  394 compressed objects within 4 object streams
  80 named destinations out of 1000 (max. 500000)
- 43810 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 43820 words of extra memory for PDF output out of 51595 (max. 10000000)
 
