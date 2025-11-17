@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.16)  17 NOV 2025 03:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.16)  17 NOV 2025 21:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -859,11 +859,11 @@ Dictionary: translator-theorem-dictionary, Language: English
 [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 98.
  (/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 98.
  (/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -875,7 +875,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [4
 
 ]
-Overfull \vbox (9.64403pt too high) detected at line 167
+Overfull \vbox (9.64403pt too high) detected at line 171
  []
 
 
@@ -903,7 +903,7 @@ Overfull \vbox (9.64403pt too high) detected at line 167
 [10
 
 ]
-Overfull \vbox (9.43462pt too high) detected at line 329
+Overfull \vbox (9.43462pt too high) detected at line 337
  []
 
 
@@ -919,6 +919,10 @@ Overfull \vbox (9.43462pt too high) detected at line 329
 [13
 
 ]
+Overfull \vbox (5.32973pt too high) detected at line 452
+ []
+
+
 
 [14
 
@@ -931,7 +935,7 @@ Overfull \vbox (9.43462pt too high) detected at line 329
 [16
 
 ]
-Overfull \vbox (26.46832pt too high) detected at line 510
+Overfull \vbox (26.46832pt too high) detected at line 534
  []
 
 
@@ -947,7 +951,7 @@ Overfull \vbox (26.46832pt too high) detected at line 510
 [19
 
 ]
-Overfull \vbox (14.30197pt too high) detected at line 596
+Overfull \vbox (14.30197pt too high) detected at line 625
  []
 
 
@@ -963,7 +967,7 @@ Overfull \vbox (14.30197pt too high) detected at line 596
 [22
 
 ]
-Overfull \vbox (24.25252pt too high) detected at line 710
+Overfull \vbox (0.5962pt too high) detected at line 729
  []
 
 
@@ -1005,17 +1009,17 @@ Package rerunfilecheck Info: File `f1.out' has not changed.
 (rerunfilecheck)             Checksum: 82F2C9B4C2667C18349655D379C4BA18;1522.
  ) 
 Here is how much of TeX's memory you used:
- 31095 strings out of 474662
- 683797 string characters out of 5751108
- 1037250 words of memory out of 5000000
- 53491 multiletter control sequences out of 15000+600000
+ 31096 strings out of 474662
+ 683784 string characters out of 5751108
+ 1037251 words of memory out of 5000000
+ 53492 multiletter control sequences out of 15000+600000
  575788 words of font info for 97 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 101i,11n,107p,427b,1257s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </Users/sudarshan/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1095.600pk> </Users/sudarshan/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1000.600pk> </Users/sudarshan/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss0900.600pk> </Users/sudarshan/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcsx1000.600pk></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on f1.pdf (27 pages, 241307 bytes).
+ 101i,11n,107p,427b,1302s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/sudarshan/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1095.600pk> </Users/sudarshan/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss0900.600pk> </Users/sudarshan/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcsx1000.600pk> </Users/sudarshan/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1000.600pk></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on f1.pdf (27 pages, 244262 bytes).
 PDF statistics:
- 338 PDF objects out of 1000 (max. 8388607)
+ 339 PDF objects out of 1000 (max. 8388607)
  250 compressed objects within 3 object streams
  62 named destinations out of 1000 (max. 500000)
  153 words of extra memory for PDF output out of 10000 (max. 10000000)
