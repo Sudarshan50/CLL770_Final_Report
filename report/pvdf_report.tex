@@ -97,7 +97,7 @@
   \begin{minipage}{0.7\textwidth}
     \centering
     {\large\bfseries Course:} CLL767 - Structures \& Properties of Polymers\\[0.2cm]
-    {\large\bfseries Instructor:} Prof. Sudip K. Pattanaik
+    {\large\bfseries Instructor:} Prof. Sudip K. Pattanayek
   \end{minipage}\\[1.5cm]
   
   % Decorative line
@@ -105,12 +105,12 @@
   
   % Authors
   {\large\bfseries Presented by:}\\[0.5cm]
-  {\large Shakhare Yash \quad $\vert$ \quad Sudarshan Oraon}\\[1.5cm]
+  {\large Yash Sakhare (2022CH71496)  \quad $\vert$ \quad Sudarshan Oraon (2022CH71511)}\\[1.5cm]
   
   \vfill
   
   % Date
-  {\large 16 November 2025}
+  {\large 17 November 2025}
   
 \end{titlepage}
 
@@ -218,7 +218,7 @@ Thermal properties dictate both the safe operating window and manufacturing para
 
 \begin{figure}[ht]
   \centering
-  \fbox{\parbox[c][5.5cm][c]{0.85\linewidth}{\centering \textit{Figure Placeholder:} DSC and TGA curves\\(replace with actual image \texttt{figures/figure\_thermal\_analysis.png})}}
+  \includegraphics[width=0.85\linewidth]{images/2.png}
   \caption{Representative DSC thermogram showing glass transition and melting peaks, and TGA curve demonstrating thermal stability of PVDF up to 400$^{\circ}$C.}
   \label{fig:thermal}
 \end{figure}
@@ -248,7 +248,6 @@ Beyond solubility, slurry rheology is critical: the slurry must be shear-thinnin
 
 \begin{figure}[ht]
   \centering
-  % \fbox{\parbox[c][5cm][c]{0.85\linewidth}{\centering \textit{Figure Placeholder:} Slurry rheology\\(replace with actual image \texttt{figures/figure\_rheology.png})}}
   \includegraphics[width=0.85\linewidth]{images/3.png}
   \caption{Viscosity vs. shear rate showing shear-thinning behavior of PVDF/NMP slurry with active materials and conductive carbon.}
   \label{fig:rheology}
@@ -314,39 +313,39 @@ Operando XCT visualises internal morphological evolution during cycling and iden
 
 \subsection{Micro-Scale Failure: In-Situ SEM and Chemical Decomposition}
 
-SEM shows micrometer-sized cracks and loss of connectivity for PVDF-bound Si anodes, whereas PAA-based binders maintain structural integrity. Chemical analyses indicate PVDF decomposition during cycling, exacerbating mechanical failure.\citep{ref16,ref18}
-
-\begin{figure}[ht]
+\begin{figure}[!ht]
   \centering
-  % \fbox{\parbox[c][5.5cm][c]{0.85\linewidth}{\centering \textit{Figure Placeholder:} SEM comparison\\(replace with actual image \texttt{figures/figure\_sem.png})}}
   \includegraphics[width=0.85\linewidth]{images/5.png}
   \caption{SEM images of Si-SnO composite electrodes with (a, c) PVdF and (b, d) PAA binders: (a, b) is as-prepared and (c, d) is after 10 cycles.}
   \label{fig:sem}
 \end{figure}
 
+\noindent SEM shows micrometer-sized cracks and loss of connectivity for PVDF-bound Si anodes, whereas PAA-based binders maintain structural integrity. Chemical analyses indicate PVDF decomposition during cycling, exacerbating mechanical failure.\citep{ref16,ref18}
+
 \subsection{Chemical-Scale Failure: Operando NMR Spectroscopy}
 
-Operando NMR identifies "trapped lithium silicides" as a major source of irreversible capacity loss; additives that alter SEI chemistry can reduce this trapped lithium, indicating the interface chemistry/binder interaction is critical.\citep{ref19}
-
-\begin{figure}[ht]
+\begin{figure}[!ht]
   \centering
-  \fbox{\parbox[c][5cm][c]{0.9\linewidth}{\centering \textit{Figure Placeholder:} Schematic of binder adhesion mechanisms\\(replace with actual image \texttt{figures/figure\_schematic.png})}}
+  \includegraphics[width=0.9\linewidth]{images/6.png}
   \caption{Schematic comparing physical adhesion (PVDF) and chemical/dynamic adhesion (PAA/alginate) on silicon particles.}
   \label{fig:schematic}
 \end{figure}
 
-This multi-scale evidence explains why water-soluble functional binders (PAA, sodium alginate) that form chemical bonds with SiOx perform far better: they form dynamic hydrogen bonds that can reform upon contraction, enabling a "self-healing" adhesion mechanism and greatly improved peel strength (e.g., alginate $\sim78.3$ N/m vs PVDF $\sim8.7$ N/m).\citep{ref1}
+\noindent Operando NMR identifies "trapped lithium silicides" as a major source of irreversible capacity loss; additives that alter SEI chemistry can reduce this trapped lithium, indicating the interface chemistry/binder interaction is critical.\citep{ref19}
+
+\noindent This multi-scale evidence explains why water-soluble functional binders (PAA, sodium alginate) that form chemical bonds with SiOx perform far better: they form dynamic hydrogen bonds that can reform upon contraction, enabling a "self-healing" adhesion mechanism and greatly improved peel strength (e.g., alginate $\sim78.3$ N/m vs PVDF $\sim8.7$ N/m).\citep{ref1}
 
 \subsection{Silicon Anode Challenge and Functional Binder Alternatives}
 
-The transition to silicon anodes (offering 10-fold capacity increase over graphite) is impossible with PVDF binders due to silicon's \textbf{$>$300\%} volume expansion during lithiation.\citep{ref1}
+\noindent The transition to silicon anodes (offering 10-fold capacity increase over graphite) is impossible with PVDF binders due to silicon's \textbf{$>$300\%} volume expansion during lithiation.\citep{ref1}
 
-\textbf{PVDF Failure Mechanism:} The weak physical van der Waals adhesion is overwhelmed by 300\% strain. During expansion, Si particles are ripped free; during contraction, weak bonds \textit{cannot reconstruct}. This repeated pulverization leads to electronic isolation and catastrophic capacity fade.\citep{ref1}
+\noindent\textbf{PVDF Failure Mechanism:} The weak physical van der Waals adhesion is overwhelmed by 300\% strain. During expansion, Si particles are ripped free; during contraction, weak bonds \textit{cannot reconstruct}. This repeated pulverization leads to electronic isolation and catastrophic capacity fade.\citep{ref1}
 
-\textbf{Aqueous Binders (CMC/SBR):} For graphite anodes, CMC/SBR is now the industry standard, eliminating NMP toxicity/cost. However, these binders are unstable at high voltages ($>$4.3~V), limiting them to anode applications.\citep{ref1}
+\noindent\textbf{Aqueous Binders (CMC/SBR):} For graphite anodes, CMC/SBR is now the industry standard, eliminating NMP toxicity/cost. However, these binders are unstable at high voltages ($>$4.3~V), limiting them to anode applications.\citep{ref1}
 
-\textbf{Functional Binders (PAA/Alginate):} These binders replace physical adhesion with strong, dynamic chemical hydrogen bonding to SiOx surfaces. Quantitative comparison: PVDF peel strength on Si is 8.7~N/m; sodium alginate achieves 78.3~N/m—a \textbf{900\% improvement}. PAA-alginate systems deliver 1419.8~mAh/g after 200 cycles with 99.5\% coulombic efficiency, far exceeding PVDF capabilities.\citep{ref1}
+\noindent\textbf{Functional Binders (PAA/Alginate):} These binders replace physical adhesion with strong, dynamic chemical hydrogen bonding to SiOx surfaces. Quantitative comparison: PVDF peel strength on Si is 8.7~N/m; sodium alginate achieves 78.3~N/m—a \textbf{900\% improvement}. PAA-alginate systems deliver 1419.8~mAh/g after 200 cycles with 99.5\% coulombic efficiency, far exceeding PVDF capabilities.\citep{ref1}
 
+\newpage
 \section{Part 4: New Frontiers: PVDF in Next-Generation Energy Storage Systems}
 
 PVDF's future may not be as a passive 2--5 wt\% binder but as a functional material in Solid-State Batteries (SSBs) and Lithium--Sulfur (Li--S) batteries, taking advantage of PVDF's electrochemical stability and polar properties when deliberately engineered (e.g., PVDF-HFP, polar $\beta$-phase membranes).\citep{ref20,ref23,ref30}
@@ -357,7 +356,6 @@ PVDF-HFP (PVDF co-hexafluoropropylene) is used as a flexible host in composite p
 
 \begin{figure}[ht]
   \centering
-  % \fbox{\parbox[c][5cm][c]{0.85\linewidth}{\centering \textit{Figure Placeholder:} Composite polymer electrolyte structure\\(replace with actual image \texttt{figures/figure\_cpe.png})}}
   \includegraphics[width=0.85\linewidth]{images/7.png}
 
   \caption{Schematic of PVDF-HFP composite polymer electrolyte with ceramic LATP particles, showing ionic conduction pathways.}
@@ -383,6 +381,7 @@ The polysulfide shuttle in Li--S systems can be mitigated by polar PVDF material
   \end{tabular}
 \end{table}
 
+\newpage
 \section{Part 5: Sustainability, Recycling, and Lifecycle Analysis}
 
 \subsection{Renewability and Environmental Impact}
@@ -397,7 +396,6 @@ Traditional pyrometallurgical recycling (smelting) burns organic components; PVD
 
 \begin{figure}[ht]
   \centering
-  % \fbox{\parbox[c][5cm][c]{0.85\linewidth}{\centering \textit{Figure Placeholder:} SC-CO$_2$ recycling process\\(replace with actual image \texttt{figures/figure\_recycling.png})}}
   \includegraphics[width=0.85\linewidth]{images/8.png}
   \caption{Process flow diagram of supercritical CO$_2$ extraction for PVDF recovery from spent Li-ion battery electrodes.}
   \label{fig:recycling}
