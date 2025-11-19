@@ -1,0 +1,62 @@
+\contentsline {section}{\numberline {1}Executive Summary}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Key Features}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Technology Stack}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Project Impact}{3}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Introduction}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Motivation}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Project Objectives}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Course Alignment}{4}{subsection.2.3}%
+\contentsline {section}{\numberline {3}System Architecture}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Overview}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Architecture Components}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}System Requirements}{6}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Optimizer Module}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Mathematical Model}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Implementation}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Infeasibility Analysis}{8}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Performance Characteristics}{8}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Simulator Module}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Queueing Theory Foundation}{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Discrete Event Simulation}{9}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Bottleneck Classification}{10}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Simulation Performance}{10}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Web Interface}{11}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Design Philosophy}{11}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Configuration Tab}{11}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Optimizer Tab}{11}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Simulator Tab}{12}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}User Experience Features}{12}{subsection.6.5}%
+\contentsline {section}{\numberline {7}REST API Architecture}{13}{section.7}%
+\contentsline {subsection}{\numberline {7.1}API Endpoints}{13}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Integration Example}{15}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Practical Use Cases}{16}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Use Case 1: Weekly Staff Scheduling}{16}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Use Case 2: Bottleneck Identification}{16}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Use Case 3: Handling Infeasible Schedules}{17}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Use Case 4: Cost Optimization Strategy}{17}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Use Case 5: What-If Scenario Testing}{18}{subsection.8.5}%
+\contentsline {section}{\numberline {9}Implementation Details}{19}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Installation and Setup}{19}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Configuration File Structure}{19}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Default Configuration}{20}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Performance Benchmarks}{20}{subsection.9.4}%
+\contentsline {section}{\numberline {10}Results and Validation}{21}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Optimization Validation}{21}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Simulation Validation}{21}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Cost Optimization Validation}{22}{subsection.10.3}%
+\contentsline {section}{\numberline {11}Limitations and Future Enhancements}{23}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Current Limitations}{23}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Future Enhancements}{23}{subsection.11.2}%
+\contentsline {section}{\numberline {12}Conclusion}{25}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Project Achievements}{25}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Educational Value}{25}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}Broader Impact}{25}{subsection.12.3}%
+\contentsline {subsection}{\numberline {12.4}Technical Contributions}{25}{subsection.12.4}%
+\contentsline {subsection}{\numberline {12.5}Lessons Learned}{26}{subsection.12.5}%
+\contentsline {subsection}{\numberline {12.6}Final Remarks}{26}{subsection.12.6}%
+\contentsline {section}{\numberline {13}References}{27}{section.13}%
+\contentsline {section}{\numberline {14}Appendices}{28}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Appendix A: Function Reference}{28}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Appendix B: Configuration Parameters}{28}{subsection.14.2}%
+\contentsline {subsection}{\numberline {14.3}Appendix C: Glossary}{28}{subsection.14.3}%
+\contentsline {subsection}{\numberline {14.4}Appendix D: System Requirements Summary}{28}{subsection.14.4}%

@@ -1,0 +1,39 @@
+\contentsline {section}{Acknowledgements}{1}{Doc-Start}%
+\contentsline {section}{Peer Evaluation}{1}{Doc-Start}%
+\contentsline {section}{Abstract}{2}{table.caption.1}%
+\contentsline {section}{\numberline {1}Introduction}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Organization of This Report}{6}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Motivation}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Microvascular Drainage Modeling}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Microfluidic Mixing and Organ-on-Chip Applications}{7}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Methodology}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Computational Domain and Mesh Generation}{8}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Mesh Strategy}{8}{subsubsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.2}Governing Equations and Fluid Properties}{9}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Boundary Conditions}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Wall Boundary Conditions}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Inlet Boundary Conditions}{10}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Outlet Boundary Conditions}{11}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Initial Conditions}{11}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Results}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Temporal Evolution of the Velocity Field}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Temporal Evolution of Pressure Distribution}{12}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Temporal Pressure Waveforms}{13}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Parametric Sensitivity: Pressure Amplitude}{14}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Parametric Sensitivity: Pulsation Frequency}{15}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Lagrangian Particle Trajectories}{16}{subsection.5.6}%
+\contentsline {section}{\numberline {6}Discussion}{17}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Physical Mechanisms: Dynamic Flow Reorganization}{17}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Scaling Relationships and Design Principles}{17}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Microvascular Analogy}{18}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Model Assumptions and Limitations}{18}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Future Work}{19}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Scope for Advancement}{19}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Broader Applications}{20}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Conclusion}{20}{section.8}%
+\contentsline {section}{References}{22}{Item.37}%
+\contentsline {section}{\numberline {A}Simulation Parameters}{23}{appendix.A}%
+\contentsline {section}{Appendix A: Simulation Parameters}{23}{appendix.A}%
+\contentsline {section}{\numberline {B}Mesh Independence Study}{23}{appendix.B}%
+\contentsline {section}{Appendix B: Mesh Independence Study}{23}{appendix.B}%
+\contentsfinish 
