@@ -5,3 +5,4 @@
 \beamer@sectionintoc {5}{Sustainability Crisis \& Alternatives}{17}{0}{5}
 \beamer@sectionintoc {6}{Future of PVDF \& Market Analysis}{21}{0}{6}
 \beamer@sectionintoc {7}{Conclusions \& Future Outlook}{24}{0}{7}
+\beamer@sectionintoc {8}{References}{27}{0}{8}
