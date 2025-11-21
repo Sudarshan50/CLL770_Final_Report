@@ -139,9 +139,8 @@
   
   % Report Title
   {\huge\bfseries\color{primaryblue} 
-  Modelling Sinusoidal Pressure--Driven\\[0.4em]
-  Micro-Scale Flow in a Water-Based\\[0.4em]
-  Star Microchannel}\\[2.5cm]
+  Modelling Sinusoidal Pressure -- Driven Micro-Scale Flow\\[0.4em]
+  in a Water-Based Star Microchannel}\\[2.5cm]
   
   % Authors Section
   \begin{minipage}{0.85\textwidth}
@@ -165,7 +164,7 @@
   
   \vfill
   
-  {\large Submission Date: 19 November 2025}
+  {\large Submission Date: 21 November 2025}
   
 \end{titlepage}
 
@@ -190,7 +189,7 @@
 \section*{Peer Evaluation}
 \addcontentsline{toc}{section}{Peer Evaluation}
 
-\noindent Please evaluate your team members based on their contribution to the group:
+\noindent This is to certify that the following are the peer evaluations for each team member based on their contributions to the project:
 \begin{itemize}
   \item 5 = This team member made unique and irreplaceable contributions to the group
   \item 4 = This team member made important contributions to the group
@@ -261,24 +260,19 @@ In the physiological microvasculature, numerous capillaries converge into collec
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.75\textwidth]{images/1.png}
+  \includegraphics[width=0.5\textwidth]{images/1.png}
   \caption{Major types of blood vessels showing arteries, veins, and capillaries in biological circulatory systems.}
   \label{fig:blood_vessels}
 \end{figure}
 
 Numerical simulation (using COMSOL Multiphysics) allows detailed visualization of the unsteady flow fields, which would be difficult to measure experimentally at this scale. Time-dependent finite-element analysis solves the incompressible Navier--Stokes equations in 3D, generating velocity and pressure fields throughout the cycle. We examine how the instantaneous dominant inlet changes over time, how the flow jets reorient, and how the pressure distributes across the network. Sensitivity to driving amplitude and frequency is also assessed. Finally, we interpret these results in the context of microvascular drainage (e.g., nearly continuous venular flow despite upstream pulsatility) and microfluidic mixing (e.g., dynamic sweeping of interfaces).
 
-\subsection{Organization of This Report}
+\subsection{COMSOL Model Files}
 
-This research report is organized according to standard academic conventions:
-\begin{enumerate}
-  \item \textbf{Motivation}: Articulation of the scientific rationale and practical significance of investigating pulsatile drainage dynamics in synthetic venule geometries
-  \item \textbf{Methodology}: Comprehensive description of the computational framework, including geometric design, governing equations, boundary conditions, and numerical implementation in COMSOL Multiphysics
-  \item \textbf{Results}: Systematic presentation of simulation outcomes, including temporal velocity and pressure field evolution, parametric sensitivity analysis, and particle trajectory visualization
-  \item \textbf{Discussion}: Critical interpretation of results in the context of microvascular physiology and microfluidic applications, with explicit treatment of model assumptions and limitations
-  \item \textbf{Future Work}: Identification of promising research directions for model refinement and experimental validation
-  \item \textbf{Conclusion}: Summary of principal findings and their implications for microfluidic device design and biomimetic systems
-\end{enumerate}
+The complete COMSOL Multiphysics model files, including geometry, mesh, and simulation parameters, are available in the project repository:
+
+\vspace{0.5em}
+\noindent\textbf{GitHub Repository:} \url{https://github.com/Sudarshan50/CLL770_COMSOL_Report}
 
 \section{Motivation}
 
@@ -304,10 +298,10 @@ Thus, by modeling a five-inlet pulsatile microchannel, we aim to show:
 
 These insights can inform the design of microfluidic OoC drainage networks and microreactors. As a bonus, the model provides an easily replicable demonstration of pulsatile multi-inlet flows for educational purposes (e.g., illustrating phase-shift effects).
 
-\newpage
+% \newpage
 \section{Methodology}
-
 \subsection{Computational Domain and Mesh Generation}
+
 
 The computational domain consists of a three-dimensional star-shaped microchannel geometry comprising five inlet branches arranged in symmetric radial configuration around a central drainage channel. Each inlet branch is modeled as a straight conduit with rectangular cross-section, with characteristic dimensions (width and height) on the order of 50--200~$\mu$m to faithfully represent capillary-scale flow conditions. These branches converge into a common main channel that terminates at a single outlet boundary.
 

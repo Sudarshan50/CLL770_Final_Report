@@ -44,10 +44,6 @@
 \usepackage{siunitx}
 \usepackage{textcomp}
 
-% --- BIBLIOGRAPHY ---
-\usepackage[numbers,sort&compress]{natbib}
-\bibliographystyle{unsrt}
-
 % --- TITLE PAGE ---
 \title[PVDF in Energy Storage]{Polyvinylidene Fluoride (PVDF) in Energy Storage}
 \subtitle{From Incumbent Binder to Next-Generation Functional Material}
@@ -71,7 +67,6 @@
 
 % --- OUTLINE ---
 \begin{frame}{Outline}
-    \small
     \tableofcontents[hideallsubsections]
 \end{frame}
 
@@ -85,7 +80,7 @@
             \item High-performance, semi-crystalline thermoplastic fluoropolymer
             \item Synthesized from vinylidene fluoride (VDF): \textbf{-[CH$_2$-CF$_2$]-}$_n$
             \item \textbf{Key feature:} Highly polar C-F bonds $\rightarrow$ large dipole moment
-            \item Exceptional chemical resistance, thermal stability ($>$400\si{\celsius}), UV resistance\cite{ref13}
+            \item Exceptional chemical resistance, thermal stability ($>$400\si{\celsius}), UV resistance
         \end{itemize}
     \end{block}
     
@@ -98,7 +93,7 @@
     \end{alertblock}
     
     \begin{exampleblock}{Molecular Weight Engineering}
-        \footnotesize Battery grades: $M_w$ $\sim$600,000 g/mol; Ultra-high grades: $>$1,000,000 g/mol\cite{ref9,ref1}
+        \footnotesize Battery grades: $M_w$ $\sim$600,000 g/mol\textsuperscript{[2]}; Ultra-high grades: $>$1,000,000 g/mol\textsuperscript{[2]}
     \end{exampleblock}
 \end{frame}
 
@@ -131,7 +126,7 @@
     
     \vspace{0.3cm}
     \begin{exampleblock}{Performance Impact}
-        $\beta$-dominant PVDF binder: \textbf{185 mAh/g capacity \& 98\% retention} vs. $\alpha$-phase: 71.6\% retention after 50 cycles\cite{ref1}
+        $\beta$-dominant PVDF binder: \textbf{185 mAh/g capacity \& 98\% retention} vs. $\alpha$-phase: 71.6\% retention after 50 cycles\textsuperscript{[1]}
     \end{exampleblock}
 \end{frame}
 
@@ -144,7 +139,7 @@
         \begin{column}{0.48\textwidth}
             \begin{block}{Glass Transition ($T_g$)}
                 \begin{itemize}
-                    \item \textbf{Value:} -35 to -40\si{\celsius}\cite{ref13}
+                    \item \textbf{Value:} -35 to -40\si{\celsius}\textsuperscript{[1]}
                     \item Far below battery operating temp
                     \item Amorphous regions stay \textbf{flexible}
                     \item Accommodates volume changes without cracking
@@ -155,9 +150,9 @@
         \begin{column}{0.48\textwidth}
             \begin{alertblock}{Melting Temperature ($T_m$)}
                 \begin{itemize}
-                    \item \textbf{Value:} 165-175\si{\celsius}\cite{ref13}
+                    \item \textbf{Value:} 165-175\si{\celsius}\textsuperscript{[1,2]}
                     \item \textbf{Critical safety advantage!}
-                    \item PE/PP separators melt at $\sim$130\si{\celsius}
+                    \item PE/PP separators melt at $\sim$130\si{\celsius}\textsuperscript{[2]}
                     \item PVDF's higher $T_m$ prevents catastrophic shorts during thermal runaway
                 \end{itemize}
             \end{alertblock}
@@ -178,28 +173,28 @@
 \begin{frame}{The Master Property: Crystallinity}
     \begin{block}{Percent Crystallinity (\%)}
         \begin{itemize}
-            \item Typical PVDF: 50-70\% crystalline\cite{ref13}
-            \item Battery grades: engineered from 14\% to 32\%\cite{ref9}
+            \item Typical PVDF: 50-70\% crystalline\textsuperscript{[1]}
+            \item Battery grades: engineered from 14\% to 32\%\textsuperscript{[11]}
             \item \textbf{Must balance:} strength, adhesion, electrolyte uptake
         \end{itemize}
     \end{block}
     
     \begin{alertblock}{Decomposition Temperature}
         \begin{itemize}
-            \item \textbf{Onset:} $>$400\si{\celsius} (TGA data)\cite{ref13}
-            \item Electrodes dried at $\sim$130\si{\celsius} (NMP evaporation)\cite{ref9}
+            \item \textbf{Onset:} $>$400\si{\celsius} (TGA data)\textsuperscript{[1]}
+            \item Electrodes dried at $\sim$130\si{\celsius} (NMP evaporation)\textsuperscript{[9]}
             \item \textbf{Wide processing window} ensures polymer integrity
         \end{itemize}
     \end{alertblock}
     
     \begin{exampleblock}{Crystallization Kinetics (Avrami Model)}
-        \footnotesize $1 - V_c(t) = \exp(-kt^n)$ with $n = 1.5-2.4$; $T_m^0 = 182$\si{\celsius}
+        \footnotesize $1 - V_c(t) = \exp(-kt^n)$ with $n = 1.5-2.4$\textsuperscript{[1]}; $T_m^0 = 182$\si{\celsius}\textsuperscript{[1]}
     \end{exampleblock}
 \end{frame}
 
 \begin{frame}{The Crystallinity Trade-Off: Data}
     \begin{table}
-        \caption{Influence of PVDF Crystallinity on Electrode Performance\cite{ref1,ref9}}
+        \caption{Influence of PVDF Crystallinity on Electrode Performance\textsuperscript{[11]}}
         \centering\small
         \begin{tabular}{lccl}
             \toprule
@@ -217,22 +212,22 @@
     
     \vspace{0.2cm}
     \begin{exampleblock}{Key Finding}
-        High crystallinity $\rightarrow$ strong adhesion \& controlled swelling $\rightarrow$ \textbf{superior long-term performance}\cite{ref1,ref16}
+        High crystallinity $\rightarrow$ strong adhesion \& controlled swelling $\rightarrow$ \textbf{superior long-term performance}
     \end{exampleblock}
 \end{frame}
 
 \begin{frame}{The Crystallinity Trade-Off: Analysis}
     \begin{block}{Crystallinity $\rightarrow$ Adhesion}
-        \small High-crystallinity binder: \textbf{$\sim$9$\times$ stronger adhesion} from increased intermolecular interactions
+        High-crystallinity binder has \textbf{$\sim$9$\times$ stronger adhesion} due to increased intermolecular interactions between PVDF chains
     \end{block}
     
     \begin{block}{Crystallinity $\rightarrow$ Swelling}
-        \small Low-crystallinity: larger amorphous volume $\rightarrow$ only region for electrolyte $\rightarrow$ \textbf{higher swelling}
+        Low-crystallinity binder has larger amorphous volume $\rightarrow$ only region electrolyte can penetrate $\rightarrow$ \textbf{higher swelling}
     \end{block}
     
     \begin{alertblock}{The Non-Obvious Conclusion}
-        \small \textbf{Excessive swelling is detrimental!}
-        \begin{itemize}\small
+        \textbf{Excessive swelling is detrimental!}
+        \begin{itemize}
             \item High swelling destroys carbon distribution in electrode
             \item Increases internal resistance $\rightarrow$ rapid capacity fade
             \item \textbf{Goal:} Optimize crystallinity for adhesion + controlled swelling
@@ -245,7 +240,7 @@
         \begin{column}{0.48\textwidth}
             \begin{block}{Electrochemical Stability}
                 \begin{itemize}\small
-                    \item \textbf{The Gold Standard: 0-5 V}\cite{ref13}
+                    \item \textbf{The Gold Standard: 0-5 V}\textsuperscript{[2,10]}
                     \item Stable at graphite anode ($\sim$0.1 V)
                     \item Stable at high-voltage cathodes ($>$4.3 V)
                     \item One of few polymers with wide window
@@ -254,7 +249,7 @@
             
             \begin{block}{Dielectric Constant}
                 \begin{itemize}\small
-                    \item \textbf{Value:} $\epsilon$ = 8.4 to 12\cite{ref13}
+                    \item \textbf{Value:} $\epsilon$ = 8.4 to 12\textsuperscript{[1]}
                     \item High polarity ensures easy wetting
                     \item Aids Li-salt dissociation
                 \item Higher ionic conductivity
@@ -271,7 +266,7 @@
                 \end{itemize}
                 
                 \vspace{0.1cm}
-                \textbf{Why NMP is standard:}\cite{ref13}
+                \textbf{Why NMP is standard:}
                 \begin{itemize}\small
                     \item High flash point ($\sim$91\si{\celsius})
                     \item Low vapor pressure
@@ -295,14 +290,14 @@
     \end{block}
     
     \begin{exampleblock}{Solution: Hansen Solubility Parameters (HSP)}
-        \small \textbf{Predictive framework for finding green solvents!}
+        \small
+        \textbf{Predictive framework for finding green solvents!}
         
-        \vspace{0.05cm}
-        HSP decomposes cohesive energy: dispersion ($\delta_D$), polar ($\delta_P$), H-bonding ($\delta_H$)
+        HSP decomposes cohesive energy into: dispersion ($\delta_D$), polar ($\delta_P$), H-bonding ($\delta_H$)
         
-        \vspace{0.05cm}
+        \vspace{0.1cm}
         \textbf{Key Metric: Relative Energy Difference (RED)}
-        \begin{itemize}\small
+        \begin{itemize}
             \item RED $<$ 1.0: High affinity, dissolution likely
             \item RED $>$ 1.0: Low affinity, won't dissolve
         \end{itemize}
@@ -316,7 +311,7 @@
     
     \vspace{-0.2cm}
     \begin{table}
-        \caption{RED Values for PVDF Solvents (HSP-based screening)\cite{ref13}}
+        \caption{RED Values for PVDF Solvents\textsuperscript{[5]}}
         \centering\footnotesize
         \begin{tabular}{lcc}
             \toprule
@@ -351,8 +346,8 @@
             \begin{block}{Phase \& Crystallinity}
                 \textbf{FTIR:} Identifies crystal phase
                 \begin{itemize}\small
-                    \item Each phase has unique vibrational fingerprint\cite{ref13}
-                    \item $\beta$-phase: sharp peak at 838 cm$^{-1}$\cite{ref13}
+                    \item Each phase has unique vibrational fingerprint
+                    \item $\beta$-phase: sharp peak at 838 cm$^{-1}$
                 \end{itemize}
                 
                 \textbf{XRD:} Quantifies crystallinity
@@ -396,10 +391,10 @@
     \begin{columns}[T]
         \begin{column}{0.48\textwidth}
             \begin{block}{Mechanical Analysis}
-                \textbf{Peel Test:} Quantifies adhesion\cite{ref16}
+                \textbf{Peel Test:} Quantifies adhesion
                 \begin{itemize}\small
                     \item 90° or 180° peel configuration
-                    \item PVDF: 8.7-48 N/m
+                    \item PVDF: 8.7-48 N/m\textsuperscript{[6,7,11]}
                 \end{itemize}
                 \textbf{DMA:} Dynamic properties
                 \begin{itemize}\small
@@ -411,7 +406,7 @@
         
         \begin{column}{0.48\textwidth}
             \begin{block}{Electrochemical Analysis}
-                	extbf{EIS:} Impedance spectroscopy\cite{ref13}
+                \textbf{EIS:} Impedance spectroscopy
                 \begin{itemize}\small
                     \item Measures ionic conductivity
                     \item Identifies charge-transfer resistance
@@ -459,21 +454,21 @@
 \begin{frame}{The Silicon Anode Problem}
     \begin{alertblock}{Why Silicon?}
         \begin{itemize}
-            \item Silicon offers \textbf{10$\times$ higher theoretical capacity} than graphite\cite{ref14}
+            \item Silicon offers \textbf{10$\times$ higher theoretical capacity} than graphite
             \item Most promising next-generation anode material
         \end{itemize}
     \end{alertblock}
     
     \begin{alertblock}{The Catch: Massive Volume Expansion}
         \begin{itemize}
-            \item \textbf{$>$300\% volume expansion} during charging (lithiation)\cite{ref14}
+            \item \textbf{$>$300\% volume expansion} during charging (lithiation)
             \item Graphite: only $\sim$10\% expansion
         \end{itemize}
     \end{alertblock}
     
     \begin{block}{PVDF's Fundamental Failure}
         \begin{itemize}
-            \item High modulus makes it \textbf{too stiff \& brittle}\cite{ref5}
+            \item High modulus makes it \textbf{too stiff \& brittle}
             \item Rigid PVDF shell \textbf{cannot stretch} $\rightarrow$ \textbf{cracks}
             \item Leads to electrode pulverization, loss of electrical contact
             \item \textbf{Rapid, irreversible battery failure}
@@ -490,7 +485,7 @@
     \end{block}
     
     \begin{table}
-        \caption{PVDF vs. Polyolefin Separators\cite{ref13}}
+        \caption{PVDF vs. Polyolefin Separators\textsuperscript{[2,10]}}
         \centering\footnotesize
         \begin{tabular}{llll}
             \toprule
@@ -547,7 +542,7 @@
                 \vspace{0.1cm}
                 \textbf{The Problem:}
                 \begin{itemize}\small
-                    \item PVDF decomposes $\rightarrow$ \textbf{HF gas}\cite{ref39}
+                    \item PVDF decomposes $\rightarrow$ \textbf{HF gas}
                     \item Hydrogen fluoride: corrosive \& toxic
                     \item Requires costly acid scrubbers
                     \item Deactivates cathode materials
@@ -562,14 +557,14 @@
                 \vspace{0.1cm}
                 \textbf{The Problem:}
                 \begin{itemize}\small
-                    \item PVDF's resistance = \textbf{doesn't dissolve}\cite{ref39}
+                    \item PVDF's resistance = \textbf{doesn't dissolve}
                     \item Remains as solid contaminant
                     \item Complicates metal purification
                 \end{itemize}
             \end{block}
             
             \begin{exampleblock}{Future Solution: SC-CO$_2$ Extraction}
-                \footnotesize \textbf{Supercritical CO$_2$ + DMSO co-solvent:}
+                \footnotesize \textbf{Supercritical CO$_2$ + DMSO co-solvent:}\textsuperscript{[3]}
                 \begin{itemize}\footnotesize
                     \item Liquid density, gas diffusivity
                     \item Dissolves PVDF, recovers materials
@@ -586,7 +581,7 @@
     \end{block}
     
     \begin{table}
-        \caption{Quantitative Binder Comparison~\cite{ref16,ref18}}
+        \caption{Quantitative Binder Comparison\textsuperscript{[5,6,11,12]}}
         \centering\footnotesize
         \begin{tabular}{lcccc}
             \toprule
@@ -601,7 +596,7 @@
     \end{table}
     
     \begin{exampleblock}{The Reason: Hydrogen Bonding}
-        \small Aqueous binders (PAA, CMC) have \textbf{-COOH/OH} groups $\rightarrow$ strong H-bonds with oxide layers. PVDF uses weaker van der Waals forces.
+        Aqueous binders (PAA, CMC) are rich in \textbf{-COOH} \& \textbf{-OH} groups $\rightarrow$ form strong H-bonds with oxide layers. PVDF relies on weaker van der Waals forces.
     \end{exampleblock}
 \end{frame}
 
@@ -610,13 +605,13 @@
         \small Too stiff \& brittle to accommodate $>$300\% volume expansion
     \end{alertblock}
     
-    \begin{exampleblock}{PAA: The Enabling Binder}\cite{ref16}
-        \small \textbf{Polyacrylic Acid (PAA) is the binder of choice for Si-anodes:}
+    \begin{exampleblock}{PAA: The Enabling Binder}
+        \small \textbf{Polyacrylic Acid (PAA) is the binder of choice for Si-anodes:}\textsuperscript{[7,8]}
         \begin{itemize}\small
-            \item Unique: \textbf{high stiffness} ($\sim$8000 MPa) + \textbf{elasticity}\cite{ref16}
+            \item Unique: \textbf{high stiffness} ($\sim$8000 MPa) + \textbf{elasticity}
             \item Can withstand \& accommodate extreme stresses
-            \item Higher carboxylic acid groups $\rightarrow$ stronger Si bonds
-            \item Lower swelling (7.49\%) vs. SBR (9.56\%)
+            \item Higher carboxylic acid groups $\rightarrow$ stronger Si bonds\textsuperscript{[7,8]}
+            \item Lower swelling (7.49\%) vs. SBR (9.56\%)\textsuperscript{[12]}
         \end{itemize}
     \end{exampleblock}
     
@@ -636,7 +631,7 @@
 \begin{frame}{The Future: Evolving PVDF's Role}
     \begin{columns}[T]
         \begin{column}{0.48\textwidth}
-            \begin{block}{Gel-Polymer Electrolytes}\cite{ref21,ref13}
+            \begin{block}{Gel-Polymer Electrolytes}
                 \textbf{PVDF-HFP copolymers:}
                 \begin{itemize}\small
                     \item Absorb liquid electrolyte into polymer matrix
@@ -685,11 +680,46 @@
     \end{exampleblock}
 \end{frame}
 
+\begin{frame}{The Solution: CMC as Superior Na-Ion Binder}
+    \vspace{-0.3cm}
+    \begin{block}{Why Carboxymethyl Cellulose (CMC)?}
+        \footnotesize Water-soluble biopolymer with \textbf{-COOH \& -OH groups} $\rightarrow$ chemical bonding\textsuperscript{[5,12]}
+    \end{block}
+    
+    \vspace{-0.25cm}
+    \begin{table}
+        \caption{PVDF vs. CMC for Na-Ion Batteries\textsuperscript{[5,12,13]}}
+        \centering\tiny
+        \begin{tabular}{lccc}
+            \toprule
+            \textbf{Property} & \textbf{PVDF} & \textbf{CMC} & \textbf{Advantage} \\
+            \midrule
+            Processing & NMP (Toxic) & \textcolor{HighlightGreen}{\textbf{Water}} & \textcolor{HighlightGreen}{Green} \\
+            Adhesion (N/cm) & $\sim$1.0 & \textcolor{HighlightGreen}{\textbf{1.1-1.7}} & \textcolor{HighlightGreen}{H-bond} \\
+            Ionic Cond. (S/cm) & $\sim$10$^{-5}$ & \textcolor{HighlightGreen}{\textbf{$\sim$10$^{-2}$}} & \textcolor{HighlightGreen}{1000$\times$} \\
+            Swelling & 11-19\% & \textcolor{HighlightGreen}{\textbf{Lower}} & \textcolor{HighlightGreen}{Stable} \\
+            $T_g$ & -35\si{\celsius} & \textcolor{HighlightGreen}{\textbf{186\si{\celsius}}} & \textcolor{HighlightGreen}{Rigid} \\
+            Na System & \textcolor{AlertRed}{\textbf{Fails}} & \textcolor{HighlightGreen}{\textbf{Stable}} & \textcolor{HighlightGreen}{No NaF} \\
+            \bottomrule
+        \end{tabular}
+    \end{table}
+    
+    \vspace{-0.2cm}
+    \begin{exampleblock}{Key Advantages of CMC\textsuperscript{[5,12,13]}}
+        \footnotesize
+        \begin{itemize}\itemsep0pt
+            \item \textbf{Ionic conductivity:} 1000$\times$ higher (10$^{-2}$ vs. 10$^{-5}$ S/cm)
+            \item \textbf{Chemical adhesion:} -COOH groups form H-bonds (stronger than VdW)
+            \item \textbf{Na compatibility:} No fluoride release; no NaF formation
+        \end{itemize}
+    \end{exampleblock}
+\end{frame}
+
 \begin{frame}{Market \& Techno-Economic Analysis}
     \begin{columns}[T]
         \begin{column}{0.48\textwidth}
             \begin{block}{Market Size \& Growth}
-                \small \textbf{Driven by EV \& grid storage:}
+                \small \textbf{Driven by EV \& grid storage:}\textsuperscript{[14]}
                 \begin{itemize}\footnotesize
                     \item \textbf{2024:} USD 1,800.75 million
                     \item \textbf{2032:} USD 3,605.40 million
@@ -698,7 +728,7 @@
             \end{block}
             
             \begin{block}{Key Manufacturers}
-                \footnotesize \textbf{Global supply chain:}\cite{ref9}
+                \footnotesize \textbf{Global supply chain:}\textsuperscript{[14,15]}
                 \begin{itemize}\footnotesize
                     \item Arkema (France): Kynar®
                     \item Solvay (Belgium): Solef®
@@ -711,13 +741,13 @@
         
         \begin{column}{0.48\textwidth}
             \begin{alertblock}{The Real Cost Problem}
-                \small \textbf{Polymer price:} \$7-26/kg\cite{ref9}
+                \small \textbf{Polymer price:} \$7-26/kg
                 \begin{enumerate}\footnotesize
-                    \item \textbf{NMP Solvent:} \$1-3/L (50-150$\times$ water!)\cite{ref13}
+                    \item \textbf{NMP Solvent:} \$1-3/L (50-150$\times$ water!)
                     \item \textbf{Solvent Recovery:} High CAPEX equipment
-                    \item \textbf{Drying:} Energy-intensive (130\si{\celsius})\cite{ref9}
+                    \item \textbf{Drying:} Energy-intensive (130\si{\celsius})
                     \item \textbf{VOC Compliance:} Regulatory costs
-                    \item \textbf{Recycling:} HF scrubbing systems\cite{ref39}
+                    \item \textbf{Recycling:} HF scrubbing systems
                 \end{enumerate}
             \end{alertblock}
             
@@ -819,13 +849,13 @@
 \end{frame}
 
 \begin{frame}{Key Takeaways}
-    \begin{enumerate}\small
-        \item \textbf{Crystallinity is master property:} 32\% $\rightarrow$ 9$\times$ adhesion, 82\% vs. 64\% retention
-        \item \textbf{NMP drives costs:} 50-150$\times$ more than water, plus infrastructure
-        \item \textbf{Aqueous binders stronger:} PAA $\sim$2 N/cm vs. PVDF $\sim$1 N/cm
-        \item \textbf{PVDF fails next-gen:} Too brittle for Si (300\% expansion), unstable in Na-ion
-        \item \textbf{Application-specific future:} Aqueous for anodes, PVDF for high-voltage
-        \item \textbf{Market booming:} \$5.99B (2024) $\rightarrow$ \$28.75B (2033), 20.3\% CAGR
+    \begin{enumerate}
+        \item \textbf{Crystallinity is the master property:} 32\% crystallinity $\rightarrow$ 9$\times$ adhesion, 82\% vs. 64\% retention
+        \item \textbf{NMP is the real cost driver:} 50-150$\times$ more than water, plus infrastructure costs
+        \item \textbf{Aqueous binders have superior adhesion:} PAA $\sim$2 N/cm vs. PVDF $\sim$1 N/cm
+        \item \textbf{PVDF fails for next-gen systems:} Too brittle for Si ($>$300\% expansion), unstable in Na-ion
+        \item \textbf{Future is application-specific:} Aqueous for manufacturing, PVDF for advanced electrolytes
+        \item \textbf{Market is booming:} \$5.99B (2024) $\rightarrow$ \$28.75B (2033), 20.3\% CAGR
     \end{enumerate}
 \end{frame}
 
@@ -833,9 +863,39 @@
 \section{References}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% --- REFERENCES ---
 \begin{frame}[allowframebreaks]{References}
-    \bibliography{../references}
+    \footnotesize
+    \begin{enumerate}
+        \item Gregorio, R. Jr. \textit{Determination of the $\alpha$, $\beta$, and $\gamma$ crystalline phases of poly(vinylidene fluoride) films prepared at different conditions.} J. Appl. Polym. Sci. 2006, \textbf{100}, 3272–3279.
+        
+        \item Arora, P.; Zhang, Z. \textit{Battery Separators.} Chem. Rev. 2004, \textbf{104}(10), 4419–4462.
+        
+        \item Knez, Ž.; Markočič, E.; Leitgeb, M.; Primožič, M.; Knez Hrnčič, M.; Škerget, M. \textit{Industrial applications of supercritical fluids: A review.} Energy 2014, \textbf{77}, 235–243.
+        
+        \item Lee, J.-H.; Lee, S.; Paik, U.; Choi, Y.-M. \textit{Aqueous processing of natural graphite particulates for lithium-ion battery anodes and their electrochemical performance.} J. Power Sources 2005, \textbf{147}, 249–255.
+        
+        \item Bresser, D.; Buchholz, D.; Moretti, A.; Varzi, A.; Passerini, S. \textit{Alternative binders for sustainable electrochemical energy storage – the transition to aqueous electrode processing and bio-derived polymers.} Energy Environ. Sci. 2018, \textbf{11}, 3096–3127.
+        
+        \item Kovalenko, I.; Zdyrko, B.; Magasinski, A.; Hertzberg, B.; Milicev, Z.; Burtovyy, R.; Luzinov, I.; Yushin, G. \textit{A major constituent of brown algae for use in high-capacity Li-ion batteries.} Science 2011, \textbf{334}(6052), 75–79.
+        
+        \item Liu, W.-R.; Yang, M.-H.; Wu, H.-C.; Chiao, S. M.; Wu, N.-L. \textit{Enhanced cycle life of Si anode for Li-ion batteries by using modified elastomeric binder.} Electrochem. Solid-State Lett. 2005, \textbf{8}(2), A100–A103.
+        
+        \item Magasinski, A.; Dixon, P.; Hertzberg, B.; Kvit, A.; Ayala, J.; Yushin, G. \textit{High-performance lithium-ion anodes using a hierarchical bottom-up approach.} Nat. Mater. 2010, \textbf{9}, 353–358.
+        
+        \item Wood, D. L.; Li, J.; Daniel, C. \textit{Prospects for reducing the processing cost of lithium ion batteries.} J. Power Sources 2015, \textbf{275}, 234–242.
+        
+        \item Zhang, S. S. \textit{A review on the separators of liquid electrolyte Li-ion batteries.} J. Power Sources 2007, \textbf{164}(1), 351–364.
+        
+        \item Choi, N.-S.; Chen, Z.; Freunberger, S. A.; Ji, X.; Sun, Y.-K.; Amine, K.; Yushin, G.; Nazar, L. F.; Cho, J.; Bruce, P. G. \textit{Challenges facing lithium batteries and electrical double-layer capacitors.} Angew. Chem. Int. Ed. 2012, \textbf{51}, 9994–10024.
+        
+        \item Li, J.; Rulison, C.; Kiggans, J.; Daniel, C.; Wood, D. L. \textit{Superior performance of LiFePO$_4$ aqueous dispersions via corona treatment and surface energy optimization.} J. Electrochem. Soc. 2012, \textbf{159}(8), A1152–A1157.
+        
+        \item Komaba, S.; Ishikawa, T.; Yabuuchi, N.; Murata, W.; Ito, A.; Ohsawa, Y. \textit{Fluorinated ethylene carbonate as electrolyte additive for rechargeable Na batteries.} ACS Appl. Mater. Interfaces 2011, \textbf{3}(11), 4165–4168.
+        
+        \item Verified Market Research. \textit{Global Polyvinylidene Fluoride (PVDF) Market Size and Forecast 2024-2032.} https://www.verifiedmarketresearch.com (accessed Nov 2024).
+        
+        \item Kynar® PVDF Technical Information. \textit{Arkema High Performance Polymers.} https://www.arkema.com (accessed Nov 2024).
+    \end{enumerate}
 \end{frame}
 
 % --- FINAL SLIDE ---
